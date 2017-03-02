@@ -1,0 +1,12 @@
+name: BeeSwitch
+main: cn.apisium.beeswitch.BeeSwitch
+version: 1.1-RELEASE
+commands:
+  beeswitch:
+    description: BeeSwitch, switch server easily!
+    usage: /<command> <plsyer> <ip:port>
+    permission: bee.switch
+    permission-message: No premission.
+permissions:
+  bee.switch:
+    default: op
